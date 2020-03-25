@@ -1,0 +1,6 @@
+# Config file for Boost.Laal (https://github.com/boostorg/laal)
+#
+# Sets the following variables:
+#   BoostLaal_INCLUDE_DIRS - include directories for Boost.Laal
+
+set(BoostLaal_INCLUDE_DIRS "@CMAKE_INSTALL_PREFIX@/include/laal")
